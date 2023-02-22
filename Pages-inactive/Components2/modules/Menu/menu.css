@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#menuPrincipal ul {
+  list-style-type: none;
+  transition: 0.5s all;
+  cursor: pointer;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  background-color: black;
+  overflow: hidden;
+  z-index: 1;
+  width: 80%;
+}
+#menuPrincipal {
+  position: relative;
+  margin-bottom: 2rem;
+}
+#menuPrincipal li {
+  font-size: 1.5rem;
+  margin-left: 15px;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+#menuPrincipal li:hover {
+  color: green;
+}
+.ulSecondary {
+  list-style-type: none;
+  position: absolute;
+  transition: 0.5s;
+  padding: 1rem;
+  color: white;
+  padding: 1rem 0.5rem;
+  width: 200px;
+  left: 5rem;
+}
+#burger {
+  font-size: 2rem;
+  position: absolute;
+  right: 0;
+}
+#box:checked ~ .ul {
+  max-height: 50vh;
+
+  width: 50%;
+}
+
+#box:not(:checked) ~ ul {
+  max-height: 0;
+}
+#box {
+  display: none;
+}
+.accueil a:hover {
+  color: green;
+}
+.accueil a:visited {
+  color: black;
+}
+.accueil a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sidebar-misc {
+  border-top: 1px solid rgb(179, 179, 179);
+  margin: 1rem auto;
+  padding-top: 1rem;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-misc a {
+  padding: 0.5rem;
+}
+.sidebar-misc a:visited {
+  color: grey;
+}
+
+@media screen and (min-width: 768px) {
+  .accueil li{
+    color: black;
+  
+  }
+  .accueil a{
+    font-weight: 600;
+  }
+  #menuPrincipal label {
+    display: none;
+  }
+  #menuPrincipal {
+    display: flex;
+    justify-content: center;
+  }
+  #menuPrincipal ul {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    left: 10rem;
+    align-items: center;
+  }
+  .ulSecondary {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #menuPrincipal li:hover {
+    color: green;
+  }
+
+  #box:not(:checked) ~ ul {
+    max-height: 50vh;
+
+    /* background-color: red; */
+  }
+  #menuPrincipal li {
+    padding-top: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+  }
+  .sidebar-misc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: none;
+  }
+  #menuPrincipal ul:nth-child(4) {
+    position: absolute;
+    bottom: 22vh;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    z-index: 2;
+  }
+}

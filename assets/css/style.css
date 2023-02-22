@@ -1,0 +1,475 @@
+@font-face {
+  font-family: "montserrat";
+  src: url("../font/Montserrat-VariableFont_wght.ttf");
+  /* font-family: "leaf";
+  src: url("../font/Leafs.ttf"); */
+}
+@font-face {
+  font-family: "courgette";
+  src: url("../font/Courgette-Regular.ttf");
+}
+* {
+  box-sizing: border-box;
+  font-family: "montserrat";
+  margin: 0;
+  padding: 0;
+}
+
+.reseaux {
+  position: absolute;
+
+  display: flex;
+  right: 1rem;
+  height: 30px;
+}
+
+.top {
+  display: flex;
+  background-color: rgb(22, 152, 22);
+  height: 40px;
+  border-radius: 0 0 85% 85% / 30%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.top li {
+  list-style-type: none;
+}
+#imgHeader {
+  height: 15vh;
+  background-repeat: no-repeat;
+  block-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#imgHeader .logo {
+  width: 5rem;
+}
+#imgHeader h2 {
+  color: darkgreen;
+  font-family: "courgette";
+  font-size: 1rem;
+  text-align: center;
+  display: block;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+}
+.top p {
+  font-family: "montserrat";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: white;
+  /* border: solid; */
+}
+/* ACCOUNT HEADER */
+.account img {
+  height: 3vh;
+  cursor: pointer;
+
+}
+.account {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  height: 6vh;
+  /* top: 2rem; */
+  /* width: 30vw; */
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  
+}
+
+.account span{
+  font-size: 0.5rem;
+}
+.account button {
+ 
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  font-size: 0.5rem;
+  background-color: #169816;
+}
+/* ACCOUNT HEADER */
+
+#mainPhoto {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: url(../img/26.jpg);
+}
+
+/* Articles */
+.btn-primary {
+  bottom: 0;
+  color: white;
+  width: 30%;
+  height: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  background-color: #169816;
+  font-size: 1.5rem;
+  border: none;
+}
+
+.article-count {
+  font-size: 0.8rem;
+  color: rgb(168, 167, 167);
+  margin: 0.5rem 0;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  background-size: contain;
+}
+.article img {
+  width: 80%;
+}
+.article {
+  margin: 0.5rem;
+  width: 45%;
+  padding: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.article figcaption {
+  font-style: 1.5rem;
+  padding-top: 0.6rem;
+}
+
+.price {
+  padding-bottom: 0.6rem;
+  color: black;
+  font-weight: 700;
+}
+
+.article span {
+  position: absolute;
+  top: 0.2rem;
+  background-color: black;
+  color: white;
+  padding: 0.2rem;
+}
+
+.price-sale {
+  color: rgba(190, 42, 42, 0.644);
+}
+
+/* categories pages */
+.newPage {
+  padding-bottom: 1rem;
+}
+.newPage p {
+  padding-left: 1rem;
+}
+.newPage h2 {
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+/* footer section */
+
+/* PAGE */
+.page {
+  padding: 0 0.5rem;
+}
+
+/* BANDE */
+.bande1,
+.bande2 {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 10px 10px 15px 5px rgb(73, 69, 69);
+  width: 100%;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.bande1 span {
+  font-weight: 900;
+}
+.bande1 p {
+  font-style: oblique;
+  font-weight: 300;
+}
+.bande2 span {
+  font-weight: 900;
+}
+.bande2 p {
+  font-style: oblique;
+  font-weight: 300;
+}
+.bande1 {
+  background-color: #169816;
+}
+/* .bande2 {
+  
+} */
+#bande {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+  margin: 1rem;
+}
+#ecriture {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* FIN BANDE */
+/* Contact */
+
+#contact,
+#about,
+#store {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+#contact {
+  width: 100%;
+}
+
+#about,
+#store {
+  width: 50%;
+}
+
+section h2 {
+  font-size: 1.5rem;
+}
+
+#contact p,
+#about a {
+  font-size: 0.8rem;
+  margin: 1rem 0;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact input {
+  border: 1px solid #acacac;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+  width: 90%;
+  height: 2rem;
+  padding: 0.5rem;
+}
+
+#contact button {
+  font-size: 1.1rem;
+  width: 90%;
+  margin: auto;
+  border: none;
+  height: 2rem;
+  background-color: black;
+  color: white;
+}
+
+#footer {
+  background-color: #c4c4c4;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+
+  text-align: center;
+  margin: 1rem;
+  color: black;
+}
+/* About */
+
+#about a {
+  color: black;
+  display: block;
+  text-decoration: underline;
+}
+
+#about a {
+  margin: 0.7rem 0;
+}
+
+/* STORE */
+
+.store {
+  margin: 0.7rem 0;
+}
+
+.social {
+  padding-top: 1rem;
+}
+
+#store p {
+  font-size: 0.7rem;
+}
+
+/* subscribe section */
+.subscribe {
+  height: 20vh;
+  background-color: #1d1e1d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe i {
+  font-size: 4rem;
+  padding-right: 1rem;
+}
+.subscribe input {
+  height: 3rem;
+  width: 20rem;
+}
+#location {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.photo {
+  display: flex;
+  flex-direction: column;
+  /* height: 300px;
+  width: 400px; */
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+}
+.ouverture {
+  display: flex;
+  flex-direction: column;
+}
+.ouverture p {
+  text-align: center;
+  padding-bottom: 1rem;
+  font-weight: 500;
+}
+/* desktop display display */
+@media screen and (min-width: 576px) {
+  /* ACCOUNT HEADER */
+  #imgHeader .logo {
+    width: 10rem;
+  }
+  #imgHeader h2 {
+    font-size: 2rem;
+  }
+  .account button {
+    font-size: 1.2rem;
+     padding: 1.5rem; 
+  }
+  .account {
+    height: 12vh;
+  }
+  .account span{
+    font-size: 1rem;
+  }
+  .account img {
+    height: 5vh;
+    cursor: pointer;
+  }
+  /* Articles */
+  #produits {
+    justify-content: center;
+  }
+  .article {
+    width: 25%;
+  }
+  /* BANDE */
+  .bande1,
+  .bande2 {
+    width: 25%;
+  }
+  #bande {
+    display: flex;
+  }
+
+  #ecriture {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  /* FIN BANDE */
+
+  /* PAGE FOOTER */
+
+  #about,
+  #store {
+    width: 30%;
+  }
+
+  #about a {
+    color: rgb(102, 102, 102);
+  }
+
+  #contact {
+    width: 40%;
+  }
+
+  .social {
+    text-align: left;
+  }
+  #store h2 {
+    text-align: left;
+    padding-left: 5rem;
+  }
+
+  .store {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  .store i {
+    margin-right: 0.5rem;
+  }
+
+  /* FOOTER */
+
+  #footer {
+    height: 35vh;
+  }
+
+  #footer div {
+    width: 80%;
+    margin-left: auto;
+  }
+
+  #location {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+  }
+  .photo {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 300px;
+  }
+  .photo img {
+    margin-left: 2rem;
+    width: 100%;
+    height: 100%;
+  }
+  .ouverture {
+    display: flex;
+    flex-direction: column;
+  }
+  .ouverture p {
+    padding-bottom: 1rem;
+    font-weight: 500;
+  }
+}
