@@ -37,7 +37,7 @@
             <p class="feL"> <a href="./index.php"> Accueil</a> > A propos > H2Origin</p>
         </div>
         <?php
-        include './Components/Slider.php';
+        // include './Components/Slider.php';
         ?>
         <div class="presentation">
             <h2>H2Origine</h2>
@@ -60,6 +60,9 @@
 
 <p>Réduire les déchets ensemble</p>
 <p>Vous proposer une eau de qualité à boire quotidiennement</p>
+<div class="h2o">
+    <img src="./assets/img/H2O-rouen-bio.jpg" alt="">
+</div>
         </div>
         <?php
         include './Components/Main.php';

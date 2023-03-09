@@ -33,21 +33,21 @@
     ?>
 
   </header>
-  <div class="newPage">
+ <div class="newPage">
     <h2>Inscription / Log In</h2>
     <p class="feL"> <a href="./index.php"> Accueil</a> > Création compte / Log In</p>
   </div>
 
   <main>
-    <div class="contactForm">
+    <div class=" contactForm">
       <form>
         <label>
           <h2>Création compte</h2>
-          <input type="text" name="nome" placeholder="Nom" />
+          <input type="text" name="nom" placeholder="Nom" />
           <input type="text" name="prenom" placeholder="Prénom" />
           <input type="text" name="email" placeholder="Email" />
-          <input type="password" name="password" placeholder="Password" required />
-          <input type="password" name="password" placeholder="Repeat your Password" required />
+          <input type="password" name="pwd" placeholder="Password" required />
+          <input type="password" name="pwd" placeholder="Repeat your Password" required />
         </label>
         <div class="checkbox">
           <input type="checkbox" id="accept" name="accept" value="yes" />

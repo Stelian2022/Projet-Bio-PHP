@@ -76,8 +76,8 @@ menuContent.map((value, index) => {
           if (subMenuEntrie.innerText === "Sans gluten") {
             window.location.href = "./Sans Gluten.php";
           }
-          if (subMenuEntrie.innerText === "Produits Locaux") {
-            window.location.href = "./Produits Locaux.php";
+          if (subMenuEntrie.innerText === "Produits locaux") {
+            window.location.href = "./Produits locaux.php";
           }
           //Catégories section
           if (subMenuEntrie.innerText === "Fruits et Légumes") {
@@ -116,7 +116,11 @@ menuContent.map((value, index) => {
           if (subMenuEntrie.innerText === "Cave a Vin") {
             window.location.href = "./Cave a Vin.php";
           }
+         
           //Bonnes affaires
+          if (subMenuEntrie.innerText === "Des prix au plus juste") {
+            window.location.href = "./Des prix au plus juste.php";
+          }
           //Nouveautés
           //Nos marsques
           // Redirigez le navigateur vers une autre page interne

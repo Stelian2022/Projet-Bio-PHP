@@ -13,6 +13,7 @@
   font-family: "montserrat";
   margin: 0;
   padding: 0;
+ 
 }
 
 .reseaux {
@@ -24,10 +25,12 @@
 }
 
 .top {
-  display: flex;
-  background-color: rgb(22, 152, 22);
-  height: 40px;
-  border-radius: 0 0 85% 85% / 30%;
+  /* position: fixed; */
+display: flex;
+flex-direction: row;
+  background-color: #3E2B2E;
+  height: 50px;
+
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
@@ -41,6 +44,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #BED600;
 }
 #imgHeader .logo {
   width: 5rem;
@@ -54,7 +58,11 @@
 }
 .top {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 .top p {
   font-family: "montserrat";
@@ -68,7 +76,6 @@
 .account img {
   height: 3vh;
   cursor: pointer;
-
 }
 .account {
   display: flex;
@@ -78,21 +85,27 @@
   /* top: 2rem; */
   /* width: 30vw; */
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  
+  background-color: transparent;
+  border-radius: 50%;
 }
 
-.account span{
+.account span {
   font-size: 0.5rem;
 }
 .account button {
- 
   border: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-weight: 600;
   font-size: 0.5rem;
-  background-color: #169816;
+ 
+}
+.account :first-child {
+  border-radius: 30px 0px 0px 30px;
+}
+#panier {
+  border-radius: 0px 30px 30px 0px;
 }
 /* ACCOUNT HEADER */
 
@@ -176,6 +189,8 @@
   padding-left: 1rem;
 }
 .newPage h2 {
+  font-family: "courgette";
+  color: #169816;
   padding-bottom: 1rem;
   padding-left: 1rem;
 }
@@ -200,10 +215,12 @@
 }
 .bande1 span {
   font-weight: 900;
+  color: white;
 }
 .bande1 p {
   font-style: oblique;
   font-weight: 300;
+  color: white;
 }
 .bande2 span {
   font-weight: 900;
@@ -213,7 +230,7 @@
   font-weight: 300;
 }
 .bande1 {
-  background-color: #169816;
+  background-color: #3E2B2E;
 }
 /* .bande2 {
   
@@ -370,12 +387,12 @@ section h2 {
   }
   .account button {
     font-size: 1.2rem;
-     padding: 1.5rem; 
+    padding: 1.5rem;
   }
   .account {
     height: 12vh;
   }
-  .account span{
+  .account span {
     font-size: 1rem;
   }
   .account img {
@@ -387,7 +404,8 @@ section h2 {
     justify-content: center;
   }
   .article {
-    width: 25%;
+    width: 20%;
+    background-color: white;
   }
   /* BANDE */
   .bande1,

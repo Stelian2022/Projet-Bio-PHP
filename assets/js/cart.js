@@ -1,4 +1,5 @@
 import { articles } from "./articles.js";
+
 ///cart panier
 function createCard() {
   const card = document.createElement("div");
@@ -39,7 +40,7 @@ for (let index = 0; index < articles.length; index++) {
       console.log("Item added to cart:", item);
       console.log("Cart:", cart);
     });
-    const cartItems = document.querySelectorAll(".cart-item");
+    const cartItems = document.querySelectorAll("#votrePanier");
     function displayCart() {
       cart.forEach(function (item) {
         const li = document.createElement("li");

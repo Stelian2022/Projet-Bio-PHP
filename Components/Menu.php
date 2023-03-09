@@ -13,13 +13,18 @@
       
     </ul>
     <ul><div class="sidebar-misc">
-            <a href="#" class="misc-item">Contact</a>
-            <a href="#" class="misc-item">Newletter</a>
-            <a href="#" class="misc-item">Subscribe</a>
+    <a href="#" class="misc-item">Fidelité</a>
+            <a href="#" class="misc-item">Promotions</a>
+            <a href="#" class="misc-item">Votre Livraison</a>
+            <a href="#" class="misc-item">Aide et Contact</a>
           </div></ul>
          
      
     </nav>
+    <form class="example" action="action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
     <div id="paginationButtons"></div>
 
 <!-- fin menu section -->

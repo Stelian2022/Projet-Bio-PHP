@@ -35,7 +35,7 @@
             <p class="feL"> <a href="./index.php"> Accueil</a> > A propos > Conseils personalisé</p>
         </div>
         <?php
-        include './Components/Slider.php';
+        // include './Components/Slider.php';
         ?>
         <div class="conseils">
             <h2>Conseils personnalisés compléments alimentaires</h2>

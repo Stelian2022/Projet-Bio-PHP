@@ -41,22 +41,25 @@
             <p class="feL"> <a href="./index.php"> Accueil</a> > A propos > Qui nous sommes</p>
         </div>
         <?php
-        include './Components/Slider.php';
+        // include './Components/Slider.php';
         ?>
         <div class="presentation">
             <h2>Présentation du magasin</h2>
             <p>Rouen Bio, un magasin d’alimentaire bio implanté depuis 25 ans au sein de Petit-Quevilly, se renouvelle !
 
-                Les nouveaux gérants depuis le 14 avril 2022 ont de grands projets en tête afin de conserver la clientèle fidèle et d’en attirer une nouvelle.
+             <p>  Les nouveaux gérants depuis le 14 avril 2022 ont de grands projets en tête afin de conserver la clientèle fidèle et d’en attirer une nouvelle.</p> 
 
-                Ils misent sur un large choix de produits dans chaque rayon, sur des prix accessibles à tous budgets et sur un engagement auprès des producteurs de la région.
+             <p>  Ils misent sur un large choix de produits dans chaque rayon, sur des prix accessibles à tous budgets et sur un engagement auprès des producteurs de la région.</p> 
 
-                Rouen Bio évolue grâce à une équipe engagée au quotidien pour être au plus proche de vos attentes. Plus qu’un commerce de proximité, Rouen Bio est un véritable lieu de bien-être !
+             <p>   Rouen Bio évolue grâce à une équipe engagée au quotidien pour être au plus proche de vos attentes. Plus qu’un commerce de proximité, Rouen Bio est un véritable lieu de bien-être !</p>
 
-                Pour un renouvellement efficace, nous avons besoin de vous !
+             <p>   Pour un renouvellement efficace, nous avons besoin de vous !</p>
 
-                N’hésitez pas à nous transmettre votre avis et vos recommandations en magasin ou sur notre page Google et à nous recommander auprès de vos proches.</p>
+              <p> N’hésitez pas à nous transmettre votre avis et vos recommandations en magasin ou sur notre page Google et à nous recommander auprès de vos proches.</p>
         </div>
+        <div class="video"><p></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9KblFtAskPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
         <?php
         include './Components/Main.php';
         ?>

@@ -1,9 +1,7 @@
 import { articles } from "./articles.js";
+//affichage 
 
-
-
-//modale d'affichage
-const imgElements = document.querySelectorAll(".article img");
+const imgElements = document.querySelectorAll("div img");
 console.dir(imgElements);
 const imgFull = [];
 const frameImg = document.createElement("div");
@@ -17,14 +15,32 @@ frameImg.style.alignItems = "center";
 frameImg.style.position = "fixed";
 frameImg.style.zIndex = 2;
 document.body.prepend(frameImg);
-//affichage des articles
+// Meme chose avec une boucle while :
+let i = 0;
+while (i < imgElements.length) {
+  let n = i;
+  imgElements[i].addEventListener("click", () => {
+    frameImg.style.display = "flex";
+    console.log(n);
+    imgFull[n] = document.createElement("img");
+    imgFull[n].style.width = "40%";
 
-//creation d'un array destiné a contenir mes cards
-const articlesElements = [];
-//
+    imgFull[n].src = imgElements[n].src;
+    frameImg.append(imgFull[n]);
+  });
+  i++;
+}
+//click pour fermer la fenetre
+frameImg.addEventListener("click", function (event) {
+  console.log(event);
+  if (!frameImg.querySelector("img").contains(event.target)) {
+    frameImg.style.display = "none";
+    frameImg.innerHTML = "";
+  }
+});
 function createCard() {
   const card = document.createElement("div");
-  card.classList.add("article");
+   card.classList.add("article");
   //creation des elements qui vont constituer cette card
   const cardImg = document.createElement("img");
   card.append(cardImg);
@@ -40,25 +56,23 @@ function createCard() {
 
   const cardDesc = document.createElement("p");
   card.append(cardDesc);
-
-
-
-const buyButton = document.createElement('button');
-buyButton.classList.add('btn', 'btn-primary');
-buyButton.innerText = '';
-card.appendChild(buyButton);
-const buyIcon =document.createElement('i');
-buyButton.classList.add('fa-solid', 'fa-cart-plus');
-buyButton.append(buyIcon);
-
-buyButton.addEventListener('click', function() {
-  
-});
+  const buyButton = document.createElement("button");
+    buyButton.classList.add("btn", "btn-primary");
+   buyButton.innerText = "";
+    card.append(buyButton);
+  // const buyIcon = document.createElement("i");
+    buyButton.classList.add("fa-solid", "fa-cart-plus");
   return card;
-  
 }
 
-//creation d'une card pour mes articles
+
+
+
+//creation d'un array destiné a contenir mes cards
+const articlesElements = [];
+//
+
+
 
 //boucle for pour le tableau
 
@@ -71,11 +85,13 @@ for (let index = 0; index < articles.length; index++) {
   articlesElements.push(tmpCard);
   articlesElements[n].childNodes[0].src = element.url;
   articlesElements[n].childNodes[1].innerText = element.name;
-  articlesElements[n].childNodes[2].innerText = element.price + " €";
-  // articlesElements[n].childNodes[3].innerText = "Taille:" + element.largeur;
+  articlesElements[n].childNodes[2].innerText = "$" + element.price;
   articlesElements[n].childNodes[4].innerText = element.description;
- 
 
   produits.append(articlesElements[n]);
 }
+
+// console.dir(articlesElements);
+
+
 

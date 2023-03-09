@@ -141,24 +141,18 @@ h3 {
 }
 
 @media screen and (min-width: 576px) {
-
-  .slider{
+  .slider {
     height: 400px;
-
   }
   .slide-ana h2 {
     position: absolute;
     bottom: 0;
-  right: 2rem;
-    
+    right: 2rem;
   }
 
-.slide-ana h3 {
-  
-  position: absolute;
-  bottom: 5rem;
-right: 2rem;
-  
-}
-
+  .slide-ana h3 {
+    position: absolute;
+    bottom: 5rem;
+    right: 2rem;
+  }
 }

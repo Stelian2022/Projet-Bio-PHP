@@ -73,7 +73,6 @@
 
      <p>9h30 - 12h30 et 13h30 - 19h</p>
      <p>Du mardi au samedi</p>
-
      <p>Fermé dimanche</p></div>
      <div class="photo">
          <img src="./assets/img/terrasse-rouen-bio-.jpg" alt="">
@@ -81,5 +80,6 @@
      </div>
 
  </div>
-
+<div> Copyright | rouenbiomonde.fr © 2022 , All rights reserved  • les images présentées sur ce site ne sont pas contractuelles.</div>
+<p>Created by Stelian Stanciu</p>
  <!-- fin footer section -->

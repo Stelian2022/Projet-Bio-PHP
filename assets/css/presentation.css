@@ -1,12 +1,53 @@
-.presentation h2{
-    text-align: center;
-    font-size: 3rem;
+
+.presentation h2 {
+  font-family: "courgette";
+  color: #169816;
+  text-align: center;
+  font-size: 3rem;
 }
-.presentation p{
-    text-align: center;
-    font-size: 1.5rem;
+.presentation p {
+  text-align: center;
+  font-size: 1.2rem;
 }
-.presentation h3{
-    font-size: 1.5rem;
-    text-align: center;
+.presentation h3 {
+  font-size: 1.5rem;
+  text-align: left;
+}
+.team p{
+  font-style: oblique;
+  font-weight: 700;
+}
+.team1{
+
+  display: flex;
+  flex-direction: column;
+}
+.video{
+ 
+  display: flex;
+  justify-content: center;
+}
+.proj, .h2o{
+  display: flex;
+  justify-content: center;
+
+}
+.proj img, .h2o img{
+  width: 30%;
+}
+
+@media screen and (min-width: 576px) {
+  .team{
+     width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+  
+  }
+  .team1{
+ align-items: center;
+   width: 50%;
+  
+  }
+
 }
