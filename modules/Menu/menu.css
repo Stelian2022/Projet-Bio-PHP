@@ -209,7 +209,7 @@ form.example::after {
     flex-direction: row;
     background-color: transparent;
     z-index: 2;
-    position: fixed;
+    /* position: fixed; */
   }
 
   /* menu effect */

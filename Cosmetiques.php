@@ -1,7 +1,5 @@
+<title>Cosmétique</title>
 
-
-
-<title>Bébé</title>
 <body>
     <header>
         <?php
@@ -12,17 +10,12 @@
     </header>
     <main>
         <div class="newPage">
-            <h2>Bébé</h2>
-            <p class="feL"> <a href="./index.php"> Accueil</a> > Categories > Bébé<p></p> </p>
+            <h2>Cosmétique</h2>
+            <p class="feL"> <a href="./index.php"> Accueil</a> > Categories > Cosmétique</p>
         </div>
         <div>
-        <p> Notre rayon bébé s’agrandit !</p>
-
-<p> Venez découvrir nos nombreux nouveaux produits, notamment les pots Babybio aux nombreuses saveurs, parfaits pour que votre bébé goûte à tout !</p>
-
-
-
-<p> Nos marques : Babybio, Weleda, Prémibio, Tidoo, Cattier, Melvita, Pediakid…</p>
+            <p> Retrouvez un large choix de produits cosmétiques chez Rouen Bio !</p>
+            <p> Crèmes de jour et de nuit, masques, huiles, produits solaires, maquillage (rouges à lèvres, blush, fards à paupières, palettes…).</p>
         </div>
         <?php
         //  include './Components/Articles.php';

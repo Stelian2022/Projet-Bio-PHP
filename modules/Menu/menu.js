@@ -87,7 +87,7 @@ menuContent.map((value, index) => {
             window.location.href = "./Produits Frais.php";
           }
           if (subMenuEntrie.innerText === "Epiceries") {
-            window.location.href = "./Epiceries.php";
+            window.location.href = "./Epicerie.php";
           }
           if (subMenuEntrie.innerText === "Pains") {
             window.location.href = "./Pains.php";
@@ -105,13 +105,13 @@ menuContent.map((value, index) => {
             window.location.href = "./Hygiene.php";
           }
           if (subMenuEntrie.innerText === "Bébé") {
-            window.location.href = "./Bebe.php";
+            window.location.href = "./Bébé.php";
           }
           if (subMenuEntrie.innerText === "Maison et entretien") {
             window.location.href = "./Maison et entretien.php";
           }
           if (subMenuEntrie.innerText === "Surgelé") {
-            window.location.href = "./Surgele.php";
+            window.location.href = "./Surgelés.php";
           }
           if (subMenuEntrie.innerText === "Cave a Vin") {
             window.location.href = "./Cave a Vin.php";

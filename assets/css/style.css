@@ -13,7 +13,6 @@
   font-family: "montserrat";
   margin: 0;
   padding: 0;
- 
 }
 
 .reseaux {
@@ -26,9 +25,9 @@
 
 .top {
   /* position: fixed; */
-display: flex;
-flex-direction: row;
-  background-color: #3E2B2E;
+  display: flex;
+  flex-direction: row;
+  background-color: #3e2b2e;
   height: 50px;
 
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -44,7 +43,7 @@ flex-direction: row;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #BED600;
+  background-color: #bed600;
 }
 #imgHeader .logo {
   width: 5rem;
@@ -99,7 +98,6 @@ flex-direction: row;
   align-items: center;
   font-weight: 600;
   font-size: 0.5rem;
- 
 }
 .account :first-child {
   border-radius: 30px 0px 0px 30px;
@@ -230,7 +228,7 @@ flex-direction: row;
   font-weight: 300;
 }
 .bande1 {
-  background-color: #3E2B2E;
+  background-color: #3e2b2e;
 }
 /* .bande2 {
   
@@ -327,7 +325,11 @@ section h2 {
 }
 
 .social {
+  font-size: 2rem;
   padding-top: 1rem;
+}
+.social a {
+  color: white;
 }
 
 #store p {
@@ -376,11 +378,50 @@ section h2 {
   padding-bottom: 1rem;
   font-weight: 500;
 }
+.category {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+.cat {
+  width: 50%;
+}
+.cat img {
+  width: 100%;
+}
+.mainPils {
+  text-align: center;
+  padding: 1rem;
+}
+.fruits {
+  padding: 1rem;
+}
+.fruits img {
+  width: 100%;
+}
+.vin img {
+  width: 100%;
+}
+.legale {
+  width: 70%;
+  padding-left: 10%;
+}
+.legale ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  list-style-type: none;
+}
+.image img:hover {
+  width: 110%;
+}
 /* desktop display display */
 @media screen and (min-width: 576px) {
   /* ACCOUNT HEADER */
   #imgHeader .logo {
     width: 10rem;
+    padding-top: 2rem;
   }
   #imgHeader h2 {
     font-size: 2rem;
@@ -489,5 +530,18 @@ section h2 {
   .ouverture p {
     padding-bottom: 1rem;
     font-weight: 500;
+  }
+  .cat {
+    width: 25%;
+  }
+  .category {
+    padding-left: 20%;
+    width: 80%;
+  }
+  .fruits {
+    padding: 5rem;
+  }
+  .vin {
+    padding: 5rem;
   }
 }

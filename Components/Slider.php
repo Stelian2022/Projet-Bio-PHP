@@ -9,12 +9,12 @@
             </div>
             <div style="background-image: url('./assets/img/25.jpg')">
                 <h2>Bienvenue dans votre Supermarché Bio</h2>
-                <h3>s</h3>
+                <h3>Promotions</h3>
                 <button>Voir plus</button>
             </div>
             <div style="background-image: url('./assets/img/26.jpg')">
                 <h2>Bienvenue dans votre Supermarché Bio</h2>
-                <h3></h3>
+                <h3>Promotions</h3>
                 <button>Voir plus</button>
             </div>
         </div>
