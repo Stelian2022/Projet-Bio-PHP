@@ -2,24 +2,23 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./assets/css/slider.css">
-  <link rel="stylesheet" href="./assets/css/all.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="stylesheet" href="./modules/Menu/menu.css">
-  <link rel="stylesheet" href="./assets/css/presentation.css">
-  <link rel="stylesheet" href="./assets/css/conseils.css">
+  <link rel="stylesheet" href="./../assets/css/slider.css">
+  <link rel="stylesheet" href="./../assets/css/all.css" />
+  <link rel="stylesheet" href="./../assets/css/style.css" />
+  <link rel="stylesheet" href="./../modules/Menu/menu.css">
+  <link rel="stylesheet" href="./../assets/css/presentation.css">
+  <link rel="stylesheet" href="./../assets/css/conseils.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="./modules/Menu/menu.js" defer type="module"></script>
-  <script src="./assets/js/script.js" defer type="module"></script>
+  <script src="./../assets/js/script.js" defer type="module"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon-16x16.png">
-  <link rel="manifest" href="./assets/img/site.webmanifest">
-  <link rel="mask-icon" href="./assets/img/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="apple-touch-icon" sizes="180x180" href="./../../assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./../../assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./../../assets/img/favicon-16x16.png">
+  <link rel="manifest" href="./../../assets/img/site.webmanifest">
+  <link rel="mask-icon" href="./../../assets/img/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-
 </head>
 
 <?php
@@ -60,15 +59,15 @@ session_start();
 
 
 <div id="imgHeader">
-  <a href="../index.php"><img class="logo" src="../assets/img/Logo Biomonde-rond-01.png" alt="Biomonde Rouen"></a>
+  <a href="./../../index.php"><img class="logo" src="../assets/img/Logo Biomonde-rond-01.png" alt="Biomonde Rouen"></a>
   <div class="text">
     <h2>Rouen Bio</h2>
     <h2>L'Art de la simplicité</h2>
   </div>
   <div class="account">
     <!-- <a href="../profil.php"></a>  -->
-    <button id="acc"> <img src="./assets/img/user.png" alt="" /><span> Mon Compte</span></button>
-    <button id="panier"><img src="./assets/img/cart.png" alt="" /><span>Mon Panier</span></button>
+    <button id="acc"> <img src="./../assets/img/user.png" alt="" /><span> Mon Compte</span></button>
+    <button id="panier"><img src="./../assets/img/cart.png" alt="" /><span>Mon Panier</span></button>
 
   </div>
 

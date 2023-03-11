@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
-
+  
+<script src="./assets/js/slider.js" defer type="module"></script>
 <title>RouenBiomonde</title>
 <body>
   <header>

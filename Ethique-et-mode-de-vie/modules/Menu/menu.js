@@ -51,75 +51,75 @@ menuContent.map((value, index) => {
         subMenuEntrie.addEventListener("click", function () {
           //A propos section
           if (subMenuEntrie.innerText === "Equipe") {
-            window.location.href = "./Categories/Equipe";
+            window.location.href = "../Categories/Equipe";
           }
           if (subMenuEntrie.innerText === "Qui nous sommes") {
-            window.location.href = "./Categories/Qui-nous-sommes";
+            window.location.href = "../Categories/Qui-nous-sommes";
           }
           if (subMenuEntrie.innerText === "Conseils personalisé") {
-            window.location.href = "./Categories/Conseils-personalise";
+            window.location.href = "../Categories/Conseils-personalise";
           }
           if (subMenuEntrie.innerText === "H2Origin") {
-            window.location.href = "./Categories/H2Origin";
+            window.location.href = "../Categories/H2Origin";
           }
           if (subMenuEntrie.innerText === "Les projets") {
-            window.location.href = "./Categories/Les-projets";
+            window.location.href = "./Les-projets";
           }
 
           //Ethique et mode de vie section
           if (subMenuEntrie.innerText === "Le Végan") {
-            window.location.href = "./Ethique-et-mode-de-vie/Le-Vegan";
+            window.location.href = "./Le-Vegan";
           }
           if (subMenuEntrie.innerText === "Le Vrac") {
-            window.location.href = "./Ethique-et-mode-de-vie/Le-Vrac";
+            window.location.href = "./Le-Vrac";
           }
           if (subMenuEntrie.innerText === "Sans gluten") {
-            window.location.href = "./Ethique-et-mode-de-vie/Sans-gluten";
+            window.location.href = "./Sans-gluten";
           }
           if (subMenuEntrie.innerText === "Produits locaux") {
-            window.location.href = "./Ethique-et-mode-de-vie/Produits-locaux";
+            window.location.href = "./Produits-locaux";
           }
           //Catégories section
           if (subMenuEntrie.innerText === "Fruits et Légumes") {
-            window.location.href = "./Categories/fruits-et-legumes";
+            window.location.href = "../Categories/fruits-et-legumes";
           }
           if (subMenuEntrie.innerText === "Produits Frais") {
-            window.location.href = "./Categories/Produits-frais";
+            window.location.href = "../Categories/Produits-frais";
           }
           if (subMenuEntrie.innerText === "Epiceries") {
-            window.location.href = "./Categories/Epicerie";
+            window.location.href = "../Categories/Epicerie";
           }
           if (subMenuEntrie.innerText === "Pains") {
-            window.location.href = "./categories/Pains";
+            window.location.href = "../Categories/Pains";
           }
           if (subMenuEntrie.innerText === "Boissons") {
-            window.location.href = "./Categories/Boissons";
+            window.location.href = "../Categories/Boissons";
           }
           if (subMenuEntrie.innerText === "Compléments alimentaires") {
-            window.location.href = "./Categories/Complements-alimentaires";
+            window.location.href = "../Categories/Complements-alimentaires";
           }
           if (subMenuEntrie.innerText === "Cosmétiques") {
-            window.location.href = "./Categories/Cosmetiques";
+            window.location.href = "../Categories/Cosmetiques";
           }
           if (subMenuEntrie.innerText === "Hygiéne") {
-            window.location.href = "./Categories/Hygiene";
+            window.location.href = "../Categories/Hygiene";
           }
           if (subMenuEntrie.innerText === "Bébé") {
-            window.location.href = "./Categories/Bébé";
+            window.location.href = "../Categories/Bébé";
           }
           if (subMenuEntrie.innerText === "Maison et entretien") {
-            window.location.href = "./Categories/Maison-et-entretien";
+            window.location.href = "../Categories/Maison-et-entretien";
           }
           if (subMenuEntrie.innerText === "Surgelé") {
-            window.location.href = "./Categories/Surgele";
+            window.location.href = "../Categories/Surgele";
           }
           if (subMenuEntrie.innerText === "Cave a Vin") {
-            window.location.href = "./Categories/Cave-a-Vin";
+            window.location.href = "../Categories/Cave-a-Vin";
           }
          
           //Bonnes affaires
           if (subMenuEntrie.innerText === "Des prix au plus juste") {
-            window.location.href = "./Categories/Bonnes-affaires/Des-prix-au-plus-juste";
+            window.location.href = "../Categories/Des-prix-au-plus-juste";
           }
           //Nouveautés
           //Nos marsques
